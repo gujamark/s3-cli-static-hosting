@@ -17,7 +17,11 @@ To use this program, you need to have Python installed on your computer. You als
 
 ### Host a static website
 
-`python main.py host BUCKET_NAME -s /path/to/my/static/website`
+Without poetry:
+`python3 main.py host BUCKET_NAME -s /path/to/my/static/website`
+
+With poetry:
+`poetry run python main.py host BUCKET_NAME -s /path/to/my/static/website`
 
 ### Arguments:
 
